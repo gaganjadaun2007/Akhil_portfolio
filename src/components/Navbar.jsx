@@ -18,7 +18,7 @@ const Navbar = ({ theme, toggleTheme }) => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <a href="#home" className="text-xl font-bold text-text">Gagan</a>
+            <a href="#home" className="text-xl font-bold text-text">Akhil</a>
           </div>
 
           {/* Desktop Nav */}

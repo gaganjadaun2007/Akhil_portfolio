@@ -1,5 +1,5 @@
 export const personalInfo = {
-  name: "Gagan",
+  name: "Akhil",
   title: "Computer Science Student & Developer",
   subtitle: "B.Tech CSE • AI & ML",
   about: "I’m a Computer Science Engineering student specializing in Artificial Intelligence & Machine Learning. I enjoy building practical software, learning new technologies and solving problems through code.",
