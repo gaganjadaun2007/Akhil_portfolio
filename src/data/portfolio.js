@@ -69,12 +69,26 @@ export const projects = [
   }
 ];
 
-export const education = {
-  degree: "Bachelor of Technology",
-  field: "Computer Science Engineering — AI & ML",
-  university: "Lovely Professional University",
-  period: "2025 — Present"
-};
+export const education = [
+  {
+    degree: "Bachelor of Technology",
+    field: "Computer Science Engineering — AI & ML",
+    university: "Lovely Professional University",
+    period: "2025 — Present"
+  },
+  {
+    degree: "Class 12 (Senior Secondary)",
+    field: "Science (PCM)",
+    university: "[ADD SCHOOL/BOARD NAME]",
+    period: "[ADD PERIOD, e.g., 2024]"
+  },
+  {
+    degree: "Class 10 (Secondary)",
+    field: "General Subjects",
+    university: "[ADD SCHOOL/BOARD NAME]",
+    period: "[ADD PERIOD, e.g., 2022]"
+  }
+];
 
 export const certifications = [
   {

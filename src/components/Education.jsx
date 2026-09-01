@@ -13,13 +13,17 @@ const Education = () => {
               <span className="h-px bg-border flex-1 ml-4 md:hidden"></span>
             </h2>
             
-            <div className="bg-background border border-border p-6 rounded-lg shadow-sm border-l-4 border-l-accent">
-              <span className="text-sm font-semibold text-text-secondary uppercase tracking-wider mb-1 block">
-                {education.period}
-              </span>
-              <h3 className="text-xl font-bold text-text mb-2">{education.degree}</h3>
-              <p className="text-text-secondary font-medium mb-1">{education.university}</p>
-              <p className="text-text-secondary text-sm">{education.field}</p>
+            <div className="space-y-6">
+              {education.map((edu, index) => (
+                <div key={index} className="bg-background border border-border p-6 rounded-lg shadow-sm border-l-4 border-l-accent">
+                  <span className="text-sm font-semibold text-text-secondary uppercase tracking-wider mb-1 block">
+                    {edu.period}
+                  </span>
+                  <h3 className="text-xl font-bold text-text mb-2">{edu.degree}</h3>
+                  <p className="text-text-secondary font-medium mb-1">{edu.university}</p>
+                  <p className="text-text-secondary text-sm">{edu.field}</p>
+                </div>
+              ))}
             </div>
           </div>
 
