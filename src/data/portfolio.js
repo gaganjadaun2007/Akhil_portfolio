@@ -72,6 +72,7 @@ export const projects = [
 export const education = {
   degree: "Bachelor of Technology",
   field: "Computer Science Engineering — AI & ML",
+  university: "Lovely Professional University",
   period: "2025 — Present"
 };
 

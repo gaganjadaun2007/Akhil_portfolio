@@ -18,7 +18,8 @@ const Education = () => {
                 {education.period}
               </span>
               <h3 className="text-xl font-bold text-text mb-2">{education.degree}</h3>
-              <p className="text-text-secondary font-medium">{education.field}</p>
+              <p className="text-text-secondary font-medium mb-1">{education.university}</p>
+              <p className="text-text-secondary text-sm">{education.field}</p>
             </div>
           </div>
 
