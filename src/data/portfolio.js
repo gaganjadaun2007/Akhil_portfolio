@@ -75,6 +75,27 @@ export const education = {
   period: "2025 — Present"
 };
 
+export const certifications = [
+  {
+    name: "Machine Learning Specialization",
+    issuer: "Coursera / Stanford University",
+    date: "[ADD DATE]",
+    link: "[ADD CERTIFICATE LINK]"
+  },
+  {
+    name: "Python for Everybody",
+    issuer: "Coursera / University of Michigan",
+    date: "[ADD DATE]",
+    link: "[ADD CERTIFICATE LINK]"
+  },
+  {
+    name: "React - The Complete Guide",
+    issuer: "Udemy",
+    date: "[ADD DATE]",
+    link: "[ADD CERTIFICATE LINK]"
+  }
+];
+
 export const learningJourney = [
   "Data Structures & Algorithms",
   "Machine Learning",
